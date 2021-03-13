@@ -1,0 +1,91 @@
+@import 'reset.scss';
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+.header__main {
+    background: url(../img/header-main\1.png);
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+nav a {
+    margin: 10px;
+    color: white;
+    text-decoration: none;
+    border: 1px solid transparent;
+}
+
+nav a :hover {
+    border-radius: 30px;
+    border: 1px solid white;
+}
+
+.icons {
+    color: white;
+    display: flex;
+    align-items: center
+}
+
+.icons :hover {
+    color: #00B25C;
+}
+
+.header__navi {
+    display: flex;
+    justify-content: space-between;
+}
+.button {
+    border-radius: 30px;
+    border: 1px solid white;
+}
+
+.header__name {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section__items span {
+    font-size: 100px;
+    color: white;
+}
+
+.section__items p{
+    color: #00B25C;
+}
+
+.section__items {
+    background: black;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    height: 350px;
+}
+
+.Discover {
+    position: absolute;
+    width: 1000px;
+    top: 65px;
+}
+
+.first {
+    display: flex;
+    align-items: flex-start;
+}
+
+.second {
+    display: flex;
+    align-items: center;
+}
+
+.third {
+    display: flex;
+    align-items: flex-end;
+}
+
